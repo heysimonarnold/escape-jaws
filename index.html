@@ -1,0 +1,98 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="index, follow" />
+    <meta name="googlebot" content="index, follow" />
+
+    <!-- Primary metadata -->
+    <title>Escape Jaws</title>
+    <meta
+      name="description"
+      content="Escape Jaws est un jeu sonore où l’ouïe devient instinct de survie. Guidé par des signaux invisibles, tentez d’échapper au requin mythique, une présence tapie dans l’ombre, prête à vous dévorez au moindre faux pas."
+    />
+
+    <!-- Canonical URL -->
+    <link
+      rel="canonical"
+      href="https://heysimonarnold.github.io/escape-jaws/"
+    />
+
+    <!-- Theme -->
+    <meta name="theme-color" content="#ffffff" />
+
+    <!-- Icons -->
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Escape Jaws" />
+    <meta property="og:title" content="Escape Jaws" />
+    <meta property="og:locale" content="en_CA" />
+    <meta
+      property="og:description"
+      content="Escape Jaws est un jeu sonore où l’ouïe devient instinct de survie. Guidé par des signaux invisibles, tentez d’échapper au requin mythique, une présence tapie dans l’ombre, prête à vous dévorez au moindre faux pas."
+    />
+    <meta
+      property="og:url"
+      content="https://heysimonarnold.github.io/escape-jaws/"
+    />
+    <meta
+      property="og:image"
+      content="https://heysimonarnold.github.io/escape-jaws/og-image.jpg"
+    />
+    <meta
+      property="og:image:alt"
+      content="Escape Jaws est un jeu sonore où l’ouïe devient instinct de survie. Guidé par des signaux invisibles, tentez d’échapper au requin mythique, une présence tapie dans l’ombre, prête à vous dévorez au moindre faux pas."
+    />
+  </head>
+  <body>
+    <main class="game">
+      <section class="board">
+        <div class="jaws">
+          <div class="sprite"></div>
+        </div>
+
+        <div class="timer"></div>
+      </section>
+
+      <section class="popup popup--intro">
+        <h1 class="popup__title">Escape Jaws</h1>
+        <p>
+          Move your cursor around the screen to avoid getting caught by Jaws!
+          But be careful! It swims under the&nbsp;surface.
+        </p>
+
+        <p>
+          🔊
+          <em
+            >Make sure you turn your audio on before playing, so you know where
+            it comes&nbsp;from!</em
+          >
+        </p>
+
+        <div class="popup__btns">
+          <button class="btn start">Start Game</button>
+        </div>
+
+        <img src="./img/intro-footer.jpg" class="popup__footer" />
+      </section>
+
+      <section class="popup popup--outro">
+        <h1 class="popup__title">Escape Jaws</h1>
+        <p>You survived <strong class="popup__duration">XX:XX</strong></p>
+
+        <div class="popup__btns">
+          <button class="btn replay">Play again</button>
+        </div>
+
+        <img src="./img/intro-footer.jpg" class="popup__footer" />
+      </section>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3/dist/gsap.min.js"></script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.3/howler.min.js" /></script>
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>
