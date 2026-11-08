@@ -1,9 +1,9 @@
 @font-face {
-  src: url("./fonts/digital.woff2") format("woff2");
+  src: url("/fonts/digital.woff2") format("woff2");
   font-family: "Digital";
 }
 @font-face {
-  src: url("./fonts/amity-jack.woff2") format("woff2");
+  src: url("/fonts/amity-jack.woff2") format("woff2");
   font-family: "Amity Jack";
 }
 
@@ -119,7 +119,7 @@ html {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url("./img/jaws-sprite-sheet.png");
+  background-image: url("/img/jaws-sprite-sheet.png");
   background-size: 100% auto;
   background-position: 0 0;
   transform: scaleX(1);
