@@ -1,4 +1,6 @@
 import "./style.css";
+import { Howl } from "howler";
+import gsap from "gsap";
 import { Timer } from "./timer";
 
 class Game {
